@@ -1,0 +1,31 @@
+userName: YOUR_USERNAME
+accessKey: YOUR_ACCESS_KEY
+
+platforms:
+  - os: Windows
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: 120.0
+  - os: OS X
+    osVersion: Monterey
+    browserName: Safari
+    browserVersion: 15.6
+  - os: Windows
+    osVersion: 11
+    browserName: Edge
+    browserVersion: 132.0
+  - os: Windows
+    osVersion: 11
+    browserName: Firefox
+    browserVersion: 132.0
+  - deviceName: iPhone 13
+    osVersion: 15
+    browserName: Chromium
+    deviceOrientation: portrait
+browserstackLocal: false
+buildName: technical-task-run
+buildIdentifier: 4
+projectName: technical-task
+debug: true
+networkLogs: false
+consoleLogs: errors
